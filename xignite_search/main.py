@@ -26,8 +26,8 @@ def run():
     symbols = get_symbols(client, config.exchanges)
 
     # # output symbols which has positive net/operating income for n consecutive years
-    # searchCompanies_PositiveIncome(client, symbols, config.target_period_in_year,
-    #                                config.output_net_income, config.output_operating_income)
+    searchCompanies_PositiveIncome(client, symbols, config.target_period_in_year,
+                                   config.output_net_income, config.output_operating_income)
 
     # make PBR ranking
     make_pbr_ranking(client, symbols)
