@@ -1,0 +1,826 @@
+{
+    "Identity": "Request",
+    "Delay": 0.1026136,
+    "ArrayOfIncomeStatementEquityQuote": [
+        {
+            "Outcome": "Success",
+            "Message": "No Errors",
+            "Code": 0,
+            "Security": {
+                "Symbol": "6501",
+                "Name": "Foobar",
+                "CategoryOrIndustry": "電気機器",
+                "Currency": "日本円"
+            },
+            "ArrayOfIncomeStatement": [
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2019/03",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2019",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/04/26",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "9480619",
+                            "OperatingIncome": "754976",
+                            "OrdinaryIncome": "516502",
+                            "NetIncome": "222546"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2019/02/01",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "9400000",
+                            "OperatingIncome": "750000",
+                            "OrdinaryIncome": "490000",
+                            "NetIncome": "180000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2018/12",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2019",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/02/01",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "6782969",
+                            "OperatingIncome": "534540",
+                            "OrdinaryIncome": "306761",
+                            "NetIncome": "82627"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2018/09",
+                    "ReportType": "Q2",
+                    "FiscalYear": "2019",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/02/01",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4491834",
+                            "OperatingIncome": "344590",
+                            "OrdinaryIncome": "352920",
+                            "NetIncome": "192995"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2018/06",
+                    "ReportType": "Q1",
+                    "FiscalYear": "2019",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/07/27",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "2165899",
+                            "OperatingIncome": "148148",
+                            "OrdinaryIncome": "180462",
+                            "NetIncome": "105245"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2018/03",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2018",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/04/26",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "9368614",
+                            "OperatingIncome": "714630",
+                            "OrdinaryIncome": "638646",
+                            "NetIncome": "362988"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2018/01/31",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "9300000",
+                            "OperatingIncome": "660000",
+                            "OrdinaryIncome": "570000",
+                            "NetIncome": "300000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2017/12",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2018",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/02/01",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "6674028",
+                            "OperatingIncome": "474551",
+                            "OrdinaryIncome": "468152",
+                            "NetIncome": "258582"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2017/09",
+                    "ReportType": "Q2",
+                    "FiscalYear": "2018",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/02/01",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4376467",
+                            "OperatingIncome": "303243",
+                            "OrdinaryIncome": "293062",
+                            "NetIncome": "160613"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2017/06",
+                    "ReportType": "Q1",
+                    "FiscalYear": "2018",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/07/27",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "2088669",
+                            "OperatingIncome": "131841",
+                            "OrdinaryIncome": "141553",
+                            "NetIncome": "75068"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2017/03",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2017",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/04/27",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "9162264",
+                            "OperatingIncome": "587309",
+                            "OrdinaryIncome": "469091",
+                            "NetIncome": "231261"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2017/02/01",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "9000000",
+                            "OperatingIncome": "560000",
+                            "OrdinaryIncome": "430000",
+                            "NetIncome": "200000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2016/12",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2017",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/01/31",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "6519311",
+                            "OperatingIncome": "373107",
+                            "OrdinaryIncome": "356963",
+                            "NetIncome": "191264"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2016/09",
+                    "ReportType": "Q2",
+                    "FiscalYear": "2017",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/01/31",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4353774",
+                            "OperatingIncome": "232840",
+                            "OrdinaryIncome": "214165",
+                            "NetIncome": "113500"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2016/06",
+                    "ReportType": "Q1",
+                    "FiscalYear": "2017",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2017/07/28",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "2130467",
+                            "OperatingIncome": "91483",
+                            "OrdinaryIncome": "109754",
+                            "NetIncome": "56450"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2016/03",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2016",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2017/05/12",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "10034305",
+                            "OperatingIncome": "634869",
+                            "OrdinaryIncome": "517040",
+                            "NetIncome": "172155"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2016/02/03",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "9950000",
+                            "OperatingIncome": "630000",
+                            "OrdinaryIncome": "520000",
+                            "NetIncome": "240000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2015/12",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2016",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2017/02/01",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "7230258",
+                            "OperatingIncome": "408389",
+                            "OrdinaryIncome": "400574",
+                            "NetIncome": "172966"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2015/09",
+                    "ReportType": "Q2",
+                    "FiscalYear": "2016",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2017/02/01",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4806888",
+                            "OperatingIncome": "274007",
+                            "OrdinaryIncome": "254693",
+                            "NetIncome": "97591"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2015/10/23",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4806000",
+                            "OperatingIncome": "",
+                            "OrdinaryIncome": "254000",
+                            "NetIncome": "97000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2015/06",
+                    "ReportType": "Q1",
+                    "FiscalYear": "2016",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2016/07/29",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "2314023",
+                            "OperatingIncome": "115390",
+                            "OrdinaryIncome": "142694",
+                            "NetIncome": "54958"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedIFRS",
+                    "FiscalPeriodEnd": "2015/03",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2015",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2016/05/13",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "9774930",
+                            "OperatingIncome": "641325",
+                            "OrdinaryIncome": "518994",
+                            "NetIncome": "217482"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2014/12",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2015",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2015/02/04",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "6818047",
+                            "OperatingIncome": "322185",
+                            "OrdinaryIncome": "355575",
+                            "NetIncome": "174913"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2014/09",
+                    "ReportType": "Q2",
+                    "FiscalYear": "2015",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2015/02/04",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4496773",
+                            "OperatingIncome": "214024",
+                            "OrdinaryIncome": "209506",
+                            "NetIncome": "91540"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2014/10/23",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4490000",
+                            "OperatingIncome": "214000",
+                            "OrdinaryIncome": "209000",
+                            "NetIncome": "91000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Outcome": "Success",
+            "Message": "No Errors",
+            "Code": 0,
+            "Security": {
+                "Symbol": "7751",
+                "Name": "キヤノン",
+                "CategoryOrIndustry": "電気機器",
+                "Currency": "日本円"
+            },
+            "ArrayOfIncomeStatement": [
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2019/03",
+                    "ReportType": "Q1",
+                    "FiscalYear": "2019",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/04/24",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "864466",
+                            "OperatingIncome": "40426",
+                            "OrdinaryIncome": "46113",
+                            "NetIncome": "31308"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2018/12",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2018",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/04/24",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "3951937",
+                            "OperatingIncome": "342952",
+                            "OrdinaryIncome": "362892",
+                            "NetIncome": "252755"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2018/10/25",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4000000",
+                            "OperatingIncome": "335500",
+                            "OrdinaryIncome": "365000",
+                            "NetIncome": "251000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2018/09",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2018",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/10/25",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "2893597",
+                            "OperatingIncome": "243374",
+                            "OrdinaryIncome": "262930",
+                            "NetIncome": "181041"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2018/06",
+                    "ReportType": "Q2",
+                    "FiscalYear": "2018",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/04/24",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "1967099",
+                            "OperatingIncome": "175046",
+                            "OrdinaryIncome": "195880",
+                            "NetIncome": "134783"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2018/03",
+                    "ReportType": "Q1",
+                    "FiscalYear": "2018",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/04/24",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "960712",
+                            "OperatingIncome": "77083",
+                            "OrdinaryIncome": "85759",
+                            "NetIncome": "57113"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2017/12",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2017",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2019/01/30",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4080015",
+                            "OperatingIncome": "321605",
+                            "OrdinaryIncome": "353884",
+                            "NetIncome": "241923"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2017/10/24",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "4080000",
+                            "OperatingIncome": "350000",
+                            "OrdinaryIncome": "365000",
+                            "NetIncome": "245000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2017/09",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2017",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/10/25",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "2959724",
+                            "OperatingIncome": "245017",
+                            "OrdinaryIncome": "265367",
+                            "NetIncome": "187320"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2017/06",
+                    "ReportType": "Q2",
+                    "FiscalYear": "2017",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/10/25",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "1965234",
+                            "OperatingIncome": "167022",
+                            "OrdinaryIncome": "177566",
+                            "NetIncome": "124269"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2017/03",
+                    "ReportType": "Q1",
+                    "FiscalYear": "2017",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/04/25",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "972761",
+                            "OperatingIncome": "73190",
+                            "OrdinaryIncome": "78010",
+                            "NetIncome": "55089"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2016/12",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2016",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2018/01/30",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "3401487",
+                            "OperatingIncome": "228866",
+                            "OrdinaryIncome": "244651",
+                            "NetIncome": "150650"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2016/11/25",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "3360000",
+                            "OperatingIncome": "235000",
+                            "OrdinaryIncome": "262000",
+                            "NetIncome": "165000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2016/09",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2016",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2017/10/24",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "2436314",
+                            "OperatingIncome": "148698",
+                            "OrdinaryIncome": "172016",
+                            "NetIncome": "105820"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2016/06",
+                    "ReportType": "Q2",
+                    "FiscalYear": "2016",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2017/10/24",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "1657476",
+                            "OperatingIncome": "108683",
+                            "OrdinaryIncome": "126753",
+                            "NetIncome": "81439"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2016/03",
+                    "ReportType": "Q1",
+                    "FiscalYear": "2016",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2017/04/26",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "797230",
+                            "OperatingIncome": "40087",
+                            "OrdinaryIncome": "45761",
+                            "NetIncome": "27991"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2015/12",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2015",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2017/01/31",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "3800271",
+                            "OperatingIncome": "355210",
+                            "OrdinaryIncome": "347438",
+                            "NetIncome": "220209"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2015/12/24",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "3820000",
+                            "OperatingIncome": "365000",
+                            "OrdinaryIncome": "355000",
+                            "NetIncome": "225000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2015/09",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2015",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2016/10/26",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "2757633",
+                            "OperatingIncome": "248168",
+                            "OrdinaryIncome": "238477",
+                            "NetIncome": "151305"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2015/06",
+                    "ReportType": "Q2",
+                    "FiscalYear": "2015",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2016/11/25",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "1831851",
+                            "OperatingIncome": "170909",
+                            "OrdinaryIncome": "164516",
+                            "NetIncome": "102125"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2015/03",
+                    "ReportType": "Q1",
+                    "FiscalYear": "2015",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2016/04/26",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "857445",
+                            "OperatingIncome": "66197",
+                            "OrdinaryIncome": "61281",
+                            "NetIncome": "33930"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2014/12",
+                    "ReportType": "Annual",
+                    "FiscalYear": "2014",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2016/01/27",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "3727252",
+                            "OperatingIncome": "363489",
+                            "OrdinaryIncome": "383239",
+                            "NetIncome": "254797"
+                        },
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Forecast",
+                            "ModifyDate": "2014/12/11",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "3740000",
+                            "OperatingIncome": "370000",
+                            "OrdinaryIncome": "380000",
+                            "NetIncome": "250000"
+                        }
+                    ]
+                },
+                {
+                    "AccountingStandard": "ConsolidatedUS",
+                    "FiscalPeriodEnd": "2014/09",
+                    "ReportType": "Q3",
+                    "FiscalYear": "2014",
+                    "ArrayOfSalesAndIncome": [
+                        {
+                            "CompanyType": "GB",
+                            "ResultOrForecast": "Result",
+                            "ModifyDate": "2015/10/27",
+                            "ChangeOfFiscalYearEnd": "false",
+                            "NetSales": "2667316",
+                            "OperatingIncome": "265020",
+                            "OrdinaryIncome": "276330",
+                            "NetIncome": "186707"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

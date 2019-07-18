@@ -1,0 +1,38 @@
+{
+  "Outcome": "Success",
+  "Message": "No Errors",
+  "Identity": "Request",
+  "Delay": 0.0331159,
+  "Code": 0,
+  "ExchangeDescription": {
+    "MarketIdentificationCode": "XTKS",
+    "Market": "FOOBAR STOCK EXCHANGE"
+  },
+  "ArrayOfSecurityDescription": [
+    {
+      "Symbol": "1301",
+      "Currency": "JPY",
+      "Name": "FOOBAR CO., LTD."
+    },
+    {
+      "Symbol": "1305",
+      "Currency": "JPY",
+      "Name": "FOOBAR ETF-TOPIX"
+    },
+    {
+      "Symbol": "1306",
+      "Currency": "JPY",
+      "Name": "TOPIX EXCHANGE TRADED FUND"
+    },
+    {
+      "Symbol": "1308",
+      "Currency": "JPY",
+      "Name": "FOOBAR EXCHANGE TRADED INDEX FUND TOPIX"
+    },
+    {
+      "Symbol": "1309",
+      "Currency": "JPY",
+      "Name": "FOOBAR INDEX EXCHANGE TRADED FUND"
+    }
+  ]
+}

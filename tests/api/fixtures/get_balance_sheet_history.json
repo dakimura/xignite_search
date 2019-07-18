@@ -1,0 +1,450 @@
+{
+  "Identity": "Request",
+  "Delay": 0.2477686,
+  "ArrayOfBalanceSheetEquityQuote": [
+    {
+      "Outcome": "Success",
+      "Message": "No Errors",
+      "Code": 0,
+      "Security": {
+        "Symbol": "6501",
+        "Name": "日立製作所",
+        "CategoryOrIndustry": "電気機器",
+        "Currency": "日本円"
+      },
+      "ArrayOfBalanceSheetStatement": [
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2019/03",
+          "ReportType": "Annual",
+          "FiscalYear": "2019",
+          "BalanceSheet": {
+            "ModifyDate": "2019/04/26",
+            "TotalAssets": "9626592",
+            "NetAssets": "4414403"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2018/12",
+          "ReportType": "Q3",
+          "FiscalYear": "2019",
+          "BalanceSheet": {
+            "ModifyDate": "2019/02/01",
+            "TotalAssets": "9693492",
+            "NetAssets": "4298371"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2018/09",
+          "ReportType": "Q2",
+          "FiscalYear": "2019",
+          "BalanceSheet": {
+            "ModifyDate": "2019/02/01",
+            "TotalAssets": "10060173",
+            "NetAssets": "4667038"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2018/06",
+          "ReportType": "Q1",
+          "FiscalYear": "2019",
+          "BalanceSheet": {
+            "ModifyDate": "2018/07/27",
+            "TotalAssets": "9934595",
+            "NetAssets": "4539373"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2018/03",
+          "ReportType": "Annual",
+          "FiscalYear": "2018",
+          "BalanceSheet": {
+            "ModifyDate": "2019/04/26",
+            "TotalAssets": "10106603",
+            "NetAssets": "4511671"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2017/12",
+          "ReportType": "Q3",
+          "FiscalYear": "2018",
+          "BalanceSheet": {
+            "ModifyDate": "2019/02/01",
+            "TotalAssets": "10196152",
+            "NetAssets": "4449438"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2017/09",
+          "ReportType": "Q2",
+          "FiscalYear": "2018",
+          "BalanceSheet": {
+            "ModifyDate": "2019/02/01",
+            "TotalAssets": "10042334",
+            "NetAssets": "4341864"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2017/06",
+          "ReportType": "Q1",
+          "FiscalYear": "2018",
+          "BalanceSheet": {
+            "ModifyDate": "2018/07/27",
+            "TotalAssets": "9691466",
+            "NetAssets": "4165236"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2017/03",
+          "ReportType": "Annual",
+          "FiscalYear": "2017",
+          "BalanceSheet": {
+            "ModifyDate": "2018/04/27",
+            "TotalAssets": "9663917",
+            "NetAssets": "4096995"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2016/12",
+          "ReportType": "Q3",
+          "FiscalYear": "2017",
+          "BalanceSheet": {
+            "ModifyDate": "2018/01/31",
+            "TotalAssets": "9640179",
+            "NetAssets": "4066913"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2016/09",
+          "ReportType": "Q2",
+          "FiscalYear": "2017",
+          "BalanceSheet": {
+            "ModifyDate": "2018/01/31",
+            "TotalAssets": "11779351",
+            "NetAssets": "3864800"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2016/06",
+          "ReportType": "Q1",
+          "FiscalYear": "2017",
+          "BalanceSheet": {
+            "ModifyDate": "2017/07/28",
+            "TotalAssets": "11658434",
+            "NetAssets": "3821494"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2016/03",
+          "ReportType": "Annual",
+          "FiscalYear": "2016",
+          "BalanceSheet": {
+            "ModifyDate": "2017/05/12",
+            "TotalAssets": "12551005",
+            "NetAssets": "4125570"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2015/12",
+          "ReportType": "Q3",
+          "FiscalYear": "2016",
+          "BalanceSheet": {
+            "ModifyDate": "2017/02/01",
+            "TotalAssets": "12823028",
+            "NetAssets": "4402160"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2015/09",
+          "ReportType": "Q2",
+          "FiscalYear": "2016",
+          "BalanceSheet": {
+            "ModifyDate": "2017/02/01",
+            "TotalAssets": "12354327",
+            "NetAssets": "4317460"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2015/06",
+          "ReportType": "Q1",
+          "FiscalYear": "2016",
+          "BalanceSheet": {
+            "ModifyDate": "2016/07/29",
+            "TotalAssets": "12516062",
+            "NetAssets": "4400980"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedIFRS",
+          "FiscalPeriodEnd": "2015/03",
+          "ReportType": "Annual",
+          "FiscalYear": "2015",
+          "BalanceSheet": {
+            "ModifyDate": "2016/05/13",
+            "TotalAssets": "12433727",
+            "NetAssets": "4296342"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2014/12",
+          "ReportType": "Q3",
+          "FiscalYear": "2015",
+          "BalanceSheet": {
+            "ModifyDate": "2015/02/04",
+            "TotalAssets": "12315745",
+            "NetAssets": "4191834"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2014/09",
+          "ReportType": "Q2",
+          "FiscalYear": "2015",
+          "BalanceSheet": {
+            "ModifyDate": "2015/02/04",
+            "TotalAssets": "11375186",
+            "NetAssets": "4025037"
+          }
+        }
+      ]
+    },
+    {
+      "Outcome": "Success",
+      "Message": "No Errors",
+      "Code": 0,
+      "Security": {
+        "Symbol": "7751",
+        "Name": "キヤノン",
+        "CategoryOrIndustry": "電気機器",
+        "Currency": "日本円"
+      },
+      "ArrayOfBalanceSheetStatement": [
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2019/03",
+          "ReportType": "Q1",
+          "FiscalYear": "2019",
+          "BalanceSheet": {
+            "ModifyDate": "2019/04/24",
+            "TotalAssets": "4896542",
+            "NetAssets": "2954067"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2018/12",
+          "ReportType": "Annual",
+          "FiscalYear": "2018",
+          "BalanceSheet": {
+            "ModifyDate": "2019/04/24",
+            "TotalAssets": "4899465",
+            "NetAssets": "3017913"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2018/09",
+          "ReportType": "Q3",
+          "FiscalYear": "2018",
+          "BalanceSheet": {
+            "ModifyDate": "2018/10/25",
+            "TotalAssets": "5003247",
+            "NetAssets": "3071658"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2018/06",
+          "ReportType": "Q2",
+          "FiscalYear": "2018",
+          "BalanceSheet": {
+            "ModifyDate": "2019/04/24",
+            "TotalAssets": "5011938",
+            "NetAssets": "3052257"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2018/03",
+          "ReportType": "Q1",
+          "FiscalYear": "2018",
+          "BalanceSheet": {
+            "ModifyDate": "2019/04/24",
+            "TotalAssets": "4978423",
+            "NetAssets": "2964164"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2017/12",
+          "ReportType": "Annual",
+          "FiscalYear": "2017",
+          "BalanceSheet": {
+            "ModifyDate": "2019/01/30",
+            "TotalAssets": "5198291",
+            "NetAssets": "3096175"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2017/09",
+          "ReportType": "Q3",
+          "FiscalYear": "2017",
+          "BalanceSheet": {
+            "ModifyDate": "2018/10/25",
+            "TotalAssets": "5185937",
+            "NetAssets": "3011392"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2017/06",
+          "ReportType": "Q2",
+          "FiscalYear": "2017",
+          "BalanceSheet": {
+            "ModifyDate": "2018/10/25",
+            "TotalAssets": "5209750",
+            "NetAssets": "2989787"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2017/03",
+          "ReportType": "Q1",
+          "FiscalYear": "2017",
+          "BalanceSheet": {
+            "ModifyDate": "2018/04/25",
+            "TotalAssets": "5113899",
+            "NetAssets": "2927366"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2016/12",
+          "ReportType": "Annual",
+          "FiscalYear": "2016",
+          "BalanceSheet": {
+            "ModifyDate": "2018/01/30",
+            "TotalAssets": "5138529",
+            "NetAssets": "2994622"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2016/09",
+          "ReportType": "Q3",
+          "FiscalYear": "2016",
+          "BalanceSheet": {
+            "ModifyDate": "2017/10/24",
+            "TotalAssets": "4530096",
+            "NetAssets": "2826988"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2016/06",
+          "ReportType": "Q2",
+          "FiscalYear": "2016",
+          "BalanceSheet": {
+            "ModifyDate": "2017/10/24",
+            "TotalAssets": "4614823",
+            "NetAssets": "2909042"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2016/03",
+          "ReportType": "Q1",
+          "FiscalYear": "2016",
+          "BalanceSheet": {
+            "ModifyDate": "2017/04/26",
+            "TotalAssets": "4839157",
+            "NetAssets": "3032674"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2015/12",
+          "ReportType": "Annual",
+          "FiscalYear": "2015",
+          "BalanceSheet": {
+            "ModifyDate": "2017/01/31",
+            "TotalAssets": "4427773",
+            "NetAssets": "3184463"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2015/09",
+          "ReportType": "Q3",
+          "FiscalYear": "2015",
+          "BalanceSheet": {
+            "ModifyDate": "2016/10/26",
+            "TotalAssets": "4399122",
+            "NetAssets": "3117994"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2015/06",
+          "ReportType": "Q2",
+          "FiscalYear": "2015",
+          "BalanceSheet": {
+            "ModifyDate": "2016/11/25",
+            "TotalAssets": "4548076",
+            "NetAssets": "3221782"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2015/03",
+          "ReportType": "Q1",
+          "FiscalYear": "2015",
+          "BalanceSheet": {
+            "ModifyDate": "2016/04/26",
+            "TotalAssets": "4284215",
+            "NetAssets": "3030369"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2014/12",
+          "ReportType": "Annual",
+          "FiscalYear": "2014",
+          "BalanceSheet": {
+            "ModifyDate": "2016/01/27",
+            "TotalAssets": "4460618",
+            "NetAssets": "3140758"
+          }
+        },
+        {
+          "AccountingStandard": "ConsolidatedUS",
+          "FiscalPeriodEnd": "2014/09",
+          "ReportType": "Q3",
+          "FiscalYear": "2014",
+          "BalanceSheet": {
+            "ModifyDate": "2015/10/27",
+            "TotalAssets": "4172718",
+            "NetAssets": "3047703"
+          }
+        }
+      ]
+    }
+  ]
+}
