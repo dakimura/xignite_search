@@ -5,10 +5,11 @@ from typing import List, Dict
 
 
 class Security:
-    pbr: int
 
-    def __init__(self, symbol: str = None, shares: int = None, net_asset: int = None, price: int = None):
+    def __init__(self, symbol: str = None, name: str = None, shares: int = None, net_asset: int = None,
+                 price: int = None):
         self.symbol = symbol
+        self.name = name
         self.shares = shares
         self.net_asset = net_asset
         self.price = price
@@ -41,15 +42,19 @@ class SecurityManager:
         for symbol in self.securities.keys():
             # set the net assets if it is included in the retrieved Balance Sheet Histories
             if symbol in all_histories:
-                # net asset unit in the balance sheet history is 1,000,000
+                self.securities[symbol].name = all_histories[symbol].name
+                # - net asset unit in the balance sheet history is 1,000,000
+                # - use the net_asset in the first (=latest) balance sheet
                 self.securities[symbol].net_asset = all_histories[symbol].balance_sheets[0].net_assets * 1000000
 
     def fetch_price(self):
+        # get the stock price
         end_of_day_prices = self.api_client.get_end_of_day_prices(self.securities.keys())
+
         for symbol, security in self.securities.items():
             # set the prices if it is included in the retrieved Quotes
             if symbol in end_of_day_prices:
-                security.price = end_of_day_prices[security.symbol]
+                security.price = end_of_day_prices[symbol]
 
     def create_from_csv(self, file_path):
         """
@@ -85,6 +90,25 @@ class SecurityManager:
 
         return securities
 
+    def remove_data_not_found_symbols(self):
+        """
+        remove symbols which don't open the information such as Net Asset
+        because we can't calculate PBRs for them
+        :return:
+        """
+        for symbol in list(self.securities):
+            if self.securities[symbol].shares is None:
+                del self.securities[symbol]
+                continue
+            if self.securities[symbol].price is None:
+                del self.securities[symbol]
+                continue
+            if self.securities[symbol].net_asset is None:
+                del self.securities[symbol]
+                continue
+
+        return
+
     def compute_pbr(self):
         """
         PBR = price / ( net_assets / issued shares )
@@ -101,11 +125,6 @@ class SecurityManager:
 
             self.securities[symbol].pbr = self.securities[symbol].price / (
                     self.securities[symbol].net_asset / float(self.securities[symbol].shares))
-
-    def remove_no_pbr_symbols(self):
-        for symbol in list(self.securities):
-            if self.securities[symbol].pbr is None:
-                del self.securities[symbol]
 
     def sort_by_pbr(self) -> List[Security]:
         return sorted(self.securities.values(), key=lambda security: security.pbr, reverse=True)

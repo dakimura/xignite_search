@@ -13,8 +13,9 @@ def make_pbr_ranking(api_client, symbols):
     m.fetch_net_assets()
     m.fetch_price()
     m.compute_pbr()
-    m.remove_no_pbr_symbols()
+    m.remove_data_not_found_symbols()
     sorted = m.sort_by_pbr()
 
-    for security in sorted:
-        print(vars(security))
+    print("symbol,name,PBR,price,NetAsset,share")
+    for s in sorted:
+        print("{},{},{},{},{},{}".format(s.symbol, s.name, s.pbr, s.price, s.net_asset, s.shares))

@@ -238,7 +238,9 @@ class XigniteAPIClient:
         end_of_day_prices = {}
         for equity_quote in resp_parsed["ArrayOfHistoricalEquityQuote"]:
             symbol = equity_quote["Security"]["Symbol"]
-            end_of_day_prices[symbol] = equity_quote["EndOfDayQuote"]["Close"]
+            # equity_quote["EndOfDayQuote"]["Close"] is "0" if there was no trade in a day.
+            # ExchangeOfficialClose returns the final price even in the case.
+            end_of_day_prices[symbol] = float(equity_quote["EndOfDayQuote"]["ExchangeOfficialClose"])
 
         return end_of_day_prices
 
