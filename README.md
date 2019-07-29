@@ -2,10 +2,27 @@
 search companies under specific conditions using Quick Xignite API
 
 ## Python version
-3.5~
+tested by python3.7
 
 ## Usage
-- put config.py under the `xignite_search/conf` directory
-- run `xignite_search/main.py`
-  -- companies which net/operating income are positive in consecutive n years are output to a filepath specified by `number_of_issued_shares_csv` config param
-  -- PBR ranking is output to stdout
+```bash
+# build a docker image
+$ make build
+
+# run 
+$ docker run --env XIGNITE_API_TOKEN="your API token to call Xignite API goes here" --mount type=bind,src=$(pwd),dst=/tmp/output dakimura/xignite_search
+```
+Then, the following files will be output on the current directory:
+- positive_net_income.csv
+
+A list of stock symbols which net income is positive for this 5 consecutive years
+
+- positive_operating_income.csv
+
+A list of stock symbols which operating income is positive for this 5 consecutive years
+
+- pbr_ranking.csv
+
+Price-BookValue-Ratio ranking
+
+Tokyo Stock Market and JASDAQ are the target markets for all the files above.

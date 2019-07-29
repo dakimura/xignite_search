@@ -1,16 +1,18 @@
 # -*- coding:utf-8 -*-
 
-from logging import getLogger
-import requests
+import datetime
 import json
 from json.decoder import JSONDecodeError
+from logging import getLogger
+from typing import List
+
+import requests
+
+from xignite_search.api import date_util
 from xignite_search.income.income_statement import IncomeStatement
 from xignite_search.income.income_statement_history import IncomeStatementHistory
 from xignite_search.pbr.balance_sheet import BalanceSheet
 from xignite_search.pbr.balance_sheet_history import BalanceSheetHistory
-import datetime
-from typing import List
-from xignite_search.api import date_util
 
 logger = getLogger(__name__)
 

@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 
-from xignite_search.income.income_statement import IncomeStatement
-import datetime
 from logging import getLogger
+
+from xignite_search.income.income_statement import IncomeStatement
 
 logger = getLogger(__name__)
 
