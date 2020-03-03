@@ -33,6 +33,9 @@ class IncomeStatementHistory:
             if not statement.is_after(from_date):
                 continue
 
+            if statement.report_type != "Annual":
+                continue
+
             target_statement_num += 1
             if type == "net":
                 if statement.net_income < 0:

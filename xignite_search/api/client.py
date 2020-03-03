@@ -123,12 +123,18 @@ class XigniteAPIClient:
                         continue
 
                     year, month = income_statement["FiscalPeriodEnd"].split("/")
+                    # "Q1", "Q2", "Q3" or "Annual"
+                    report_type = income_statement["ReportType"]
+                    # e.g. 2018, 2016
+                    fiscal_year = income_statement["FiscalYear"]
 
                     income_statement = IncomeStatement(
                         fiscal_period_end_year=int(year),
                         fiscal_period_end_month=int(month),
                         net_income=int(sales_and_income["NetIncome"]),
-                        operating_income=int(sales_and_income["OperatingIncome"])
+                        operating_income=int(sales_and_income["OperatingIncome"]),
+                        report_type=report_type,
+                        fiscal_year=fiscal_year
                     )
 
                     income_statements.append(income_statement)
@@ -192,11 +198,14 @@ class XigniteAPIClient:
                     continue
 
                 year, month = bs["FiscalPeriodEnd"].split("/")
+                fiscal_year = int(bs["FiscalYear"])
 
                 bs = BalanceSheet(
                     fiscal_period_end_year=int(year),
                     fiscal_period_end_month=int(month),
-                    net_assets=int(bs["BalanceSheet"]["NetAssets"])
+                    net_assets=int(bs["BalanceSheet"]["NetAssets"]),
+                    report_type=bs["ReportType"],
+                    fiscal_year=fiscal_year
                 )
 
                 bs_array.append(bs)
@@ -232,7 +241,8 @@ class XigniteAPIClient:
             resp_parsed = json.loads(resp.content)
         except JSONDecodeError as err:
             raise XigniteAPIError(
-                "malformed API response is returned from QUICKEquityHistorical/GetQuotes API. response=" + str(resp)) from err
+                "malformed API response is returned from QUICKEquityHistorical/GetQuotes API. response=" + str(
+                    resp)) from err
 
         if resp_parsed["ArrayOfHistoricalEquityQuote"][0]["Outcome"] != "Success":
             raise XigniteAPIError("'Outcome':'Success' is not returned from Xignite. response=" + str(resp.content))

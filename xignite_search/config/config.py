@@ -25,10 +25,14 @@ output_net_income = "/tmp/output/positive_net_income.csv"
 output_operating_income = "/tmp/output/positive_operating_income.csv"
 
 # ----- make PBR(Price Book-value Ratio) ranking ---------------------------
-number_of_issued_shares_csv = "/tmp/xignite_search/config/security_code_and_number_of_shares2.csv"
+number_of_issued_shares_csv = os.path.dirname(__file__) +"/security_code_and_number_of_shares2.csv"
 
 # filepath of the output csv
 output_pbr_ranking = "/tmp/output/pbr_ranking.csv"
+
+# ----- collect Net Asset of the target symbols and of a specified year ----
+net_asset_target_year = 2019
+output_net_assets = "/tmp/output/net_assets.csv"
 
 # days that the market is closed
 closed_days = [

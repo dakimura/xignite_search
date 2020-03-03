@@ -18,7 +18,7 @@ class TestIncomeStatement(unittest.TestCase):
     ])
     def test_is_after(self, year, month, expect):
         # ---- given ----
-        SUT = IncomeStatement(2019, 6, 123, 456)
+        SUT = IncomeStatement(2019, 6, 123, 456, report_type="Annual", fiscal_year="2018")
 
         # ---- when ----
         date = datetime.date(year, month, 1)

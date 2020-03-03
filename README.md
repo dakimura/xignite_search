@@ -26,3 +26,7 @@ A list of stock symbols which operating income is positive for this 5 consecutiv
 Price-BookValue-Ratio ranking
 
 Tokyo Stock Market and JASDAQ are the target markets for all the files above.
+
+- net_assets.csv
+
+Net Asset of the target symbols and in the year of `net_asset_target_year` config param
